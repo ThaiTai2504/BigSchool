@@ -8,6 +8,7 @@ namespace BigSchool.Models
 {
     public class Category
     {
+        //big3
         public byte Id { get; set; }
         [Required]
         [StringLength(255)]
